@@ -22,8 +22,8 @@ Se escogió debido a que cuenta con muchos servicios y atributos variados que pu
 - npm instalación de: npm install react-router-dom
 
 ## Sobre el proyecto
-Se utilizó 12 componentes estructurados de la siguiente manera:
-- Cards: Para Realizar los cards que se renderizan en cada sección requerida.
+Se utilizó 12 componentes y 5 carpetas estructuradas de la siguiente manera:
+- Cards: Para realizar los cards que contienen la informaciónn de cada personaje y que se renderizan en cada sección requerida.
 - Filters: Para filtrar a los personajes de acuerdo a su Genero, Especie u Estado.
 - Navbar: Para implementar la barra de navegación que contiene los enlaces a las páginas creadas.
 - Pagination: Para implementar una paginación que nos permita ver la totalidad de los personajes.
@@ -31,7 +31,7 @@ Se utilizó 12 componentes estructurados de la siguiente manera:
 
 Se implementaron 4 páginas:
 - [Home](https://project-test-houm.netlify.app/)
-- [[Episodes](https://project-test-houm.netlify.app/episodes)
+- [Episodes](https://project-test-houm.netlify.app/episodes)
 - [Filters](https://project-test-houm.netlify.app/filters)
 - [Location](https://project-test-houm.netlify.app/location)
 
