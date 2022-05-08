@@ -1,0 +1,84 @@
+//Cards
+.img {
+    border-radius: 10px 10px 0 0;
+}
+
+.section {
+    padding: 14px;
+}
+
+.cards {
+    border: 3px solid #FF452B;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+
+.cards:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    box-shadow: 1px 5px 45px 0px #88410a6b;
+}
+
+.badge {
+    top: 10px;
+    right: 20px;
+    font-size: 14px;
+}
+
+.points {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+//CardDetails
+.card_detail {
+  --border-radius: 15px;
+  --border-width: 4px;
+  appearance: none;
+  position: relative;
+  padding: 8px 8px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: 2;
+  border-radius: 15px;
+  }
+
+  .card_detail::after {
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--border-width);
+    border-radius: var(--border-radius);
+    background-image: conic-gradient(
+       #fb6948,
+       #db7c29,
+       #f59d05,
+       #ffd52b,
+       #e49540,
+       #dcc05a,
+       #FF452B,
+     );
+    -webkit-mask-image: var(--m-i), var(--m-i);
+    mask-image: var(--m-i), var(--m-i);
+    -webkit-mask-origin: var(--m-o);
+    mask-origin: var(--m-o);
+    -webkit-mask-clip: var(--m-o);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    filter: hue-rotate(0);
+    animation: rotate-hue linear 500ms infinite;
+    animation-play-state: paused;
+   }
+  
+   .card_detail:hover::after {
+    animation-play-state: running;
+   }
+   

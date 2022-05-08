@@ -1,0 +1,117 @@
+//Body
+body {
+	padding-top: 80px;
+}
+
+//Navbar
+.navbar {
+	left: 0; 
+	top: 0; 
+  width: 100%;
+	position: fixed; 
+  z-index: 999;
+  height: 80px;
+  box-shadow: rgb(38 50 56 / 15%) 0px 4px 15px;
+}
+
+//Links-Navbar
+.active {
+  color: #FF452B !important;
+  font-weight: bold;
+  border-bottom: 3px solid #FF452B;
+}
+
+.text-primary {
+  color: #FF452B !important;
+}
+
+//Inputs y Selects
+input:focus, select:focus, select, input.form-control:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+  border: 2px solid #263238!important;
+  border-radius: 20px!important;
+  padding: 10px 14px!important;
+}
+
+input[type="text"] {
+  padding: 10px 14px;
+}
+
+select.form-select {
+  background-color: #f7f0f0;;
+}
+
+//Acordion
+.accordion {
+  border-color: #fff;
+}
+
+//Los botones sin colapsar
+.accordion-button {
+  border: 2px solid #263238!important;
+  border-radius: 20px!important;
+  box-shadow: none!important;
+  padding: 0.6rem 1.25rem!important;
+}
+
+//Div detras del boton de acrodeón
+.accordion-item {
+  border-radius: 20px!important;
+}
+
+//Al pasar el mouse
+.accordion-button:hover {
+  background-color: #f7f0f0!important;
+}
+
+//Cuando el acordeon está desplegado
+.accordion-button:not(.collapsed) {
+  color: #263238;
+  background-color: #f7f0f0!important;
+  border-radius: 20px!important;
+  box-shadow: none!important;
+  border: 2px solid #263238!important;
+}
+
+
+//Cambiar el color de la flecha del acordeon al desplegar
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23263238'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;    
+}
+
+//Cambiar el color de la flecha del acordeon al no estar desplegado
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23263238'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;    
+}
+
+//Cuerpo del acordeón
+.accordion-body {
+  padding: 0.6rem 0.8rem 0.6rem 0.8rem!important;
+}
+
+.form-check {
+  padding-left: 0.6em!important;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+//Media query
+@media (max-width: 991px) {
+
+  .navbar-collapse {
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+      width: 100%!important;
+      margin-top: 22px;
+      margin-right: 0rem!important;
+  }
+
+}
+
+
+
