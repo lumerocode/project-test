@@ -23,16 +23,15 @@ Se escogió debido a que cuenta con muchos servicios y atributos variados que pu
 
 ## Sobre el proyecto
 Se utilizó 12 componentes estructurados de la siguiente manera:
-- Cards
-- Filters
-- Navbar
-- Pagination
-- Search
+- Cards: Para Realizar los cards que se renderizan en cada sección requerida.
+- Filters: Para filtrar a los personajes de acuerdo a su Genero, Especie u Estado.
+- Navbar: Para implementar la barra de navegación que contiene los enlaces a las páginas creadas.
+- Pagination: Para implementar una paginación que nos permita ver la totalidad de los personajes.
+- Search: Para poder realizar la búsqueda de acuerdo al nombre del personaje.
 
-Se utilizó 4 páginas:
-- Home (https://project-test-houm.netlify.app/)
-- Episodes (https://project-test-houm.netlify.app/episodes)
-- Filters (https://project-test-houm.netlify.app/filters)
-- Location (https://project-test-houm.netlify.app/location)
+Se implementaron 4 páginas:
+- [Home](https://project-test-houm.netlify.app/)
+- [[Episodes](https://project-test-houm.netlify.app/episodes)
+- [Filters](https://project-test-houm.netlify.app/filters)
+- [Location](https://project-test-houm.netlify.app/location)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
