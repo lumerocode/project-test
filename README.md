@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+# Project Test 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Para correr el proyecto
+- Descargar el proyectp
+- Colocar en la terminal npm i, para instalar la carpeta no_modules
+- Colocar en la terminal npm start
 
-## Available Scripts
+## API
+Api de Rick and Morty: [https://rickandmortyapi.com/api/](https://rickandmortyapi.com/api/)
 
-In the project directory, you can run:
+## Herramientas que se utilizaron para el proyecto
+- Instalación de: bootstrap
+- instale popperjs/core
+- instalé sass
+- instalé react-paginate
+- instalé sweetalert2
+- npm install react-router-dom
+- instale react-icons
+
 
 ### `npm start`
 
