@@ -52,7 +52,7 @@ const Pagination = ({pageNumber, setPageNumber, info}) => {
       {/* Componente de React js para la paginación */}
       <ReactPaginate 
         className="pagination justify-content-center gap-0.5 my-5"
-        forcePage={pageNumber === 1 ? 0 : pageNumber - 1} //Para anular la página seleccionada con prop principal
+        forcePage={pageNumber } //Para anular la página seleccionada con prop principal
         nextLabel="Next" //Texto en el botón siguiente
         nextLinkClassName={`${scss.btn_page} mx-1 next`} //Estilos para el botón siguiente
         previousLabel="Prev" //Texto en el botón anterior
