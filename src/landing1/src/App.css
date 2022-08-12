@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /*Hace que el border y el padding pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
+    text-decoration: none; /*Quita los subrayados de una etiqueta <a></a>*/
+    list-style: none; /*Quita la numeración o los guiones o puntes que salen en una etiqueta <li></li>*/
+}
+
+:root {
+
+  --color-primary: #F66B0E;
+  --color-white: #FFF;
+  --color-black: #000;
+  --color-text: #112B3C;
+  --color-p: #828282;
+
+  --container-width-lg: 70%;
+  --container-width-md: 75%;
+  --container-width-ms: 80%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}

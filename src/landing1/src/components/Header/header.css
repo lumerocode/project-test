@@ -1,0 +1,38 @@
+.header__section {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.nav {
+    max-width: var(--container-width-ms);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    
+}
+
+.nav__logo{
+    width: 188px;
+}
+
+.nav__links--center {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link-center, .nav__link-right {
+    padding: 0 20px;
+    color: var(--color-text);
+    font-size: 16px;
+}
+
+.nav__button {
+    background-color: var(--color-primary);
+    padding: 10px 14px;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+
+
